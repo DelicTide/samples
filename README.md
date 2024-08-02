@@ -8,9 +8,9 @@ The idea behind the libarary is to use orginal /organic audio for algo-rythmic s
         load your samples for retreival into a git repo
         and call your samples in the browser 
 
-Strudel asks for .wav files and most programs don't like spaces in the file names, so I created some script to help out with those and added a query to limit file sizes to 150mb. 
+Strudel asks for .wav files and most programs don't like spaces in the file names, so I created some script to help out with those and added a query to limit file sizes to 99mb. Github large filesize = 100mb 
 
-oversized_files.py : will look for files over 150mb and if found move them to a subfolder.
+oversized_files.py : will look for files over 99mb and if found move them to a subfolder.
 
 convert2wav.sh : uses ffmpeg to convert .mp3/m4a to .wav. 
 
