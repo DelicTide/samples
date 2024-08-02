@@ -1,0 +1,3 @@
+samples/oversized_files/
+*.DS_Store
+.env
